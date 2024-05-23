@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/FedeAcuM/FeriaOnline.git",
+  "homepage": "https://fedeacum.github.io/FeriaOnline",
 
   "scripts": {
     "dev": "vite",
