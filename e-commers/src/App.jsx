@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import ProductPage from './pages/ProductPage';
@@ -17,7 +17,7 @@ function App() {
           <Route path="/cart" element={<CartPage />} />
         </Routes>
       </Router>
-      </BrowserRouter>
+    </BrowserRouter>
   );
 }
 
